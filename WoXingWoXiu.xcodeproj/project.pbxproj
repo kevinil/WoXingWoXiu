@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6A381121C7B3B6100E6C9B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A381111C7B3B6100E6C9B3 /* AppDelegate.swift */; };
+		C6A381141C7B3B6100E6C9B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A381131C7B3B6100E6C9B3 /* ViewController.swift */; };
+		C6A381171C7B3B6100E6C9B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A381151C7B3B6100E6C9B3 /* Main.storyboard */; };
+		C6A3811A1C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6A381181C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld */; };
+		C6A3811C1C7B3B6100E6C9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A3811B1C7B3B6100E6C9B3 /* Assets.xcassets */; };
+		C6A3811F1C7B3B6100E6C9B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A3811D1C7B3B6100E6C9B3 /* LaunchScreen.storyboard */; };
+		C6A3812A1C7B3B6100E6C9B3 /* WoXingWoXiuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A381291C7B3B6100E6C9B3 /* WoXingWoXiuTests.swift */; };
+		C6A381351C7B3B6100E6C9B3 /* WoXingWoXiuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A381341C7B3B6100E6C9B3 /* WoXingWoXiuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6A381261C7B3B6100E6C9B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A381061C7B3B6100E6C9B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A3810D1C7B3B6100E6C9B3;
+			remoteInfo = WoXingWoXiu;
+		};
+		C6A381311C7B3B6100E6C9B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A381061C7B3B6100E6C9B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A3810D1C7B3B6100E6C9B3;
+			remoteInfo = WoXingWoXiu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6A3810E1C7B3B6100E6C9B3 /* WoXingWoXiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoXingWoXiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A381111C7B3B6100E6C9B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6A381131C7B3B6100E6C9B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6A381161C7B3B6100E6C9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6A381191C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WoXingWoXiu.xcdatamodel; sourceTree = "<group>"; };
+		C6A3811B1C7B3B6100E6C9B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6A3811E1C7B3B6100E6C9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6A381201C7B3B6100E6C9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A381251C7B3B6100E6C9B3 /* WoXingWoXiuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoXingWoXiuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A381291C7B3B6100E6C9B3 /* WoXingWoXiuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoXingWoXiuTests.swift; sourceTree = "<group>"; };
+		C6A3812B1C7B3B6100E6C9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A381301C7B3B6100E6C9B3 /* WoXingWoXiuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoXingWoXiuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A381341C7B3B6100E6C9B3 /* WoXingWoXiuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoXingWoXiuUITests.swift; sourceTree = "<group>"; };
+		C6A381361C7B3B6100E6C9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6A3810B1C7B3B6100E6C9B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A381221C7B3B6100E6C9B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A3812D1C7B3B6100E6C9B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6A381051C7B3B6100E6C9B3 = {
+			isa = PBXGroup;
+			children = (
+				C6A381101C7B3B6100E6C9B3 /* WoXingWoXiu */,
+				C6A381281C7B3B6100E6C9B3 /* WoXingWoXiuTests */,
+				C6A381331C7B3B6100E6C9B3 /* WoXingWoXiuUITests */,
+				C6A3810F1C7B3B6100E6C9B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A3810F1C7B3B6100E6C9B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A3810E1C7B3B6100E6C9B3 /* WoXingWoXiu.app */,
+				C6A381251C7B3B6100E6C9B3 /* WoXingWoXiuTests.xctest */,
+				C6A381301C7B3B6100E6C9B3 /* WoXingWoXiuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A381101C7B3B6100E6C9B3 /* WoXingWoXiu */ = {
+			isa = PBXGroup;
+			children = (
+				C6A381111C7B3B6100E6C9B3 /* AppDelegate.swift */,
+				C6A381131C7B3B6100E6C9B3 /* ViewController.swift */,
+				C6A381151C7B3B6100E6C9B3 /* Main.storyboard */,
+				C6A3811B1C7B3B6100E6C9B3 /* Assets.xcassets */,
+				C6A3811D1C7B3B6100E6C9B3 /* LaunchScreen.storyboard */,
+				C6A381201C7B3B6100E6C9B3 /* Info.plist */,
+				C6A381181C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld */,
+			);
+			path = WoXingWoXiu;
+			sourceTree = "<group>";
+		};
+		C6A381281C7B3B6100E6C9B3 /* WoXingWoXiuTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6A381291C7B3B6100E6C9B3 /* WoXingWoXiuTests.swift */,
+				C6A3812B1C7B3B6100E6C9B3 /* Info.plist */,
+			);
+			path = WoXingWoXiuTests;
+			sourceTree = "<group>";
+		};
+		C6A381331C7B3B6100E6C9B3 /* WoXingWoXiuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6A381341C7B3B6100E6C9B3 /* WoXingWoXiuUITests.swift */,
+				C6A381361C7B3B6100E6C9B3 /* Info.plist */,
+			);
+			path = WoXingWoXiuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6A3810D1C7B3B6100E6C9B3 /* WoXingWoXiu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A381391C7B3B6100E6C9B3 /* Build configuration list for PBXNativeTarget "WoXingWoXiu" */;
+			buildPhases = (
+				C6A3810A1C7B3B6100E6C9B3 /* Sources */,
+				C6A3810B1C7B3B6100E6C9B3 /* Frameworks */,
+				C6A3810C1C7B3B6100E6C9B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoXingWoXiu;
+			productName = WoXingWoXiu;
+			productReference = C6A3810E1C7B3B6100E6C9B3 /* WoXingWoXiu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6A381241C7B3B6100E6C9B3 /* WoXingWoXiuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A3813C1C7B3B6100E6C9B3 /* Build configuration list for PBXNativeTarget "WoXingWoXiuTests" */;
+			buildPhases = (
+				C6A381211C7B3B6100E6C9B3 /* Sources */,
+				C6A381221C7B3B6100E6C9B3 /* Frameworks */,
+				C6A381231C7B3B6100E6C9B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A381271C7B3B6100E6C9B3 /* PBXTargetDependency */,
+			);
+			name = WoXingWoXiuTests;
+			productName = WoXingWoXiuTests;
+			productReference = C6A381251C7B3B6100E6C9B3 /* WoXingWoXiuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6A3812F1C7B3B6100E6C9B3 /* WoXingWoXiuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A3813F1C7B3B6100E6C9B3 /* Build configuration list for PBXNativeTarget "WoXingWoXiuUITests" */;
+			buildPhases = (
+				C6A3812C1C7B3B6100E6C9B3 /* Sources */,
+				C6A3812D1C7B3B6100E6C9B3 /* Frameworks */,
+				C6A3812E1C7B3B6100E6C9B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A381321C7B3B6100E6C9B3 /* PBXTargetDependency */,
+			);
+			name = WoXingWoXiuUITests;
+			productName = WoXingWoXiuUITests;
+			productReference = C6A381301C7B3B6100E6C9B3 /* WoXingWoXiuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A381061C7B3B6100E6C9B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kevinil;
+				TargetAttributes = {
+					C6A3810D1C7B3B6100E6C9B3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C6A381241C7B3B6100E6C9B3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C6A3810D1C7B3B6100E6C9B3;
+					};
+					C6A3812F1C7B3B6100E6C9B3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C6A3810D1C7B3B6100E6C9B3;
+					};
+				};
+			};
+			buildConfigurationList = C6A381091C7B3B6100E6C9B3 /* Build configuration list for PBXProject "WoXingWoXiu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6A381051C7B3B6100E6C9B3;
+			productRefGroup = C6A3810F1C7B3B6100E6C9B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A3810D1C7B3B6100E6C9B3 /* WoXingWoXiu */,
+				C6A381241C7B3B6100E6C9B3 /* WoXingWoXiuTests */,
+				C6A3812F1C7B3B6100E6C9B3 /* WoXingWoXiuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6A3810C1C7B3B6100E6C9B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A3811F1C7B3B6100E6C9B3 /* LaunchScreen.storyboard in Resources */,
+				C6A3811C1C7B3B6100E6C9B3 /* Assets.xcassets in Resources */,
+				C6A381171C7B3B6100E6C9B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A381231C7B3B6100E6C9B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A3812E1C7B3B6100E6C9B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6A3810A1C7B3B6100E6C9B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A381141C7B3B6100E6C9B3 /* ViewController.swift in Sources */,
+				C6A3811A1C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld in Sources */,
+				C6A381121C7B3B6100E6C9B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A381211C7B3B6100E6C9B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A3812A1C7B3B6100E6C9B3 /* WoXingWoXiuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A3812C1C7B3B6100E6C9B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A381351C7B3B6100E6C9B3 /* WoXingWoXiuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6A381271C7B3B6100E6C9B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A3810D1C7B3B6100E6C9B3 /* WoXingWoXiu */;
+			targetProxy = C6A381261C7B3B6100E6C9B3 /* PBXContainerItemProxy */;
+		};
+		C6A381321C7B3B6100E6C9B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A3810D1C7B3B6100E6C9B3 /* WoXingWoXiu */;
+			targetProxy = C6A381311C7B3B6100E6C9B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6A381151C7B3B6100E6C9B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A381161C7B3B6100E6C9B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6A3811D1C7B3B6100E6C9B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A3811E1C7B3B6100E6C9B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6A381371C7B3B6100E6C9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6A381381C7B3B6100E6C9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6A3813A1C7B3B6100E6C9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoXingWoXiu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinil.WoXingWoXiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6A3813B1C7B3B6100E6C9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoXingWoXiu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinil.WoXingWoXiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6A3813D1C7B3B6100E6C9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoXingWoXiuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinil.WoXingWoXiuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoXingWoXiu.app/WoXingWoXiu";
+			};
+			name = Debug;
+		};
+		C6A3813E1C7B3B6100E6C9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoXingWoXiuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinil.WoXingWoXiuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoXingWoXiu.app/WoXingWoXiu";
+			};
+			name = Release;
+		};
+		C6A381401C7B3B6100E6C9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoXingWoXiuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinil.WoXingWoXiuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WoXingWoXiu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C6A381411C7B3B6100E6C9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoXingWoXiuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinil.WoXingWoXiuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WoXingWoXiu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6A381091C7B3B6100E6C9B3 /* Build configuration list for PBXProject "WoXingWoXiu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A381371C7B3B6100E6C9B3 /* Debug */,
+				C6A381381C7B3B6100E6C9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A381391C7B3B6100E6C9B3 /* Build configuration list for PBXNativeTarget "WoXingWoXiu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A3813A1C7B3B6100E6C9B3 /* Debug */,
+				C6A3813B1C7B3B6100E6C9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6A3813C1C7B3B6100E6C9B3 /* Build configuration list for PBXNativeTarget "WoXingWoXiuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A3813D1C7B3B6100E6C9B3 /* Debug */,
+				C6A3813E1C7B3B6100E6C9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6A3813F1C7B3B6100E6C9B3 /* Build configuration list for PBXNativeTarget "WoXingWoXiuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A381401C7B3B6100E6C9B3 /* Debug */,
+				C6A381411C7B3B6100E6C9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6A381181C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6A381191C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodel */,
+			);
+			currentVersion = C6A381191C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodel */;
+			path = WoXingWoXiu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6A381061C7B3B6100E6C9B3 /* Project object */;
+}
