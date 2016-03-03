@@ -1,0 +1,6 @@
+framework module Pods_WoXingWoXiu {
+  umbrella header "Pods-WoXingWoXiu-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D70171D6CE7E2DA5877F24A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1314D02F9364DBEADB0C11 /* Pods.framework */; };
+		C64D8E431C7C134800228D68 /* MineFavoriteTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E421C7C134800228D68 /* MineFavoriteTVC.swift */; };
+		C64D8E451C7C136200228D68 /* MineFavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E441C7C136200228D68 /* MineFavoriteCell.swift */; };
+		C64D8E471C7C1A3600228D68 /* MineRechargeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E461C7C1A3600228D68 /* MineRechargeTVC.swift */; };
+		C64D8E491C7C267800228D68 /* MineWithDrawTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E481C7C267800228D68 /* MineWithDrawTVC.swift */; };
+		C64D8E4B1C7C373400228D68 /* MineProfileTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E4A1C7C373400228D68 /* MineProfileTVC.swift */; };
+		C64D8E4D1C7C3C0700228D68 /* MineProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E4C1C7C3C0700228D68 /* MineProfileCell.swift */; };
+		C64D8E501C7C454100228D68 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64D8E4F1C7C454100228D68 /* MobileCoreServices.framework */; };
+		C64D8E571C7C4F8300228D68 /* NameTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E561C7C4F8300228D68 /* NameTVC.swift */; };
+		C64D8E591C7C548500228D68 /* SignatureTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E581C7C548400228D68 /* SignatureTVC.swift */; };
+		C64D8E5B1C7C582400228D68 /* SexTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E5A1C7C582400228D68 /* SexTVC.swift */; };
+		C64D8E5D1C7C582D00228D68 /* AgeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E5C1C7C582D00228D68 /* AgeTVC.swift */; };
+		C64D8E5F1C7C583C00228D68 /* DistrictTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E5E1C7C583C00228D68 /* DistrictTVC.swift */; };
+		C64D8E631C7C711900228D68 /* showCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E621C7C711900228D68 /* showCVC.swift */; };
+		C64D8E651C7C718900228D68 /* showCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E641C7C718900228D68 /* showCell.swift */; };
+		C64D8E671C7C73B900228D68 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E661C7C73B900228D68 /* GradientView.swift */; };
+		C64D8E691C7D5DEB00228D68 /* InterestedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E681C7D5DEB00228D68 /* InterestedCell.swift */; };
+		C64D8E6C1C7D661300228D68 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E6B1C7D661300228D68 /* DiscoverVC.swift */; };
+		C64D8E6E1C7D8F8D00228D68 /* RankingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E6D1C7D8F8D00228D68 /* RankingsVC.swift */; };
+		C64D8E701C7D9C0B00228D68 /* RankingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E6F1C7D9C0B00228D68 /* RankingsCell.swift */; };
+		C64D8E721C7DA60A00228D68 /* StoreCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E711C7DA60A00228D68 /* StoreCVC.swift */; };
+		C64D8E741C7DA97200228D68 /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E731C7DA97200228D68 /* StoreCell.swift */; };
+		C64D8E761C7DAF0800228D68 /* GuessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E751C7DAF0800228D68 /* GuessVC.swift */; };
+		C64D8E781C7DBD7D00228D68 /* GoldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D8E771C7DBD7D00228D68 /* GoldVC.swift */; };
 		C6A381121C7B3B6100E6C9B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A381111C7B3B6100E6C9B3 /* AppDelegate.swift */; };
-		C6A381141C7B3B6100E6C9B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A381131C7B3B6100E6C9B3 /* ViewController.swift */; };
 		C6A381171C7B3B6100E6C9B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A381151C7B3B6100E6C9B3 /* Main.storyboard */; };
 		C6A3811A1C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6A381181C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld */; };
 		C6A3811C1C7B3B6100E6C9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A3811B1C7B3B6100E6C9B3 /* Assets.xcassets */; };
 		C6A3811F1C7B3B6100E6C9B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A3811D1C7B3B6100E6C9B3 /* LaunchScreen.storyboard */; };
 		C6A3812A1C7B3B6100E6C9B3 /* WoXingWoXiuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A381291C7B3B6100E6C9B3 /* WoXingWoXiuTests.swift */; };
 		C6A381351C7B3B6100E6C9B3 /* WoXingWoXiuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A381341C7B3B6100E6C9B3 /* WoXingWoXiuUITests.swift */; };
+		C6A381481C7B427300E6C9B3 /* MineTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A381471C7B427300E6C9B3 /* MineTVC.swift */; };
+		C6C974D51C7B490400BB027C /* MineSettingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C974D41C7B490400BB027C /* MineSettingTVC.swift */; };
+		C6C974D71C7B4A7200BB027C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C974D61C7B4A7200BB027C /* Utils.swift */; };
+		C6C974DD1C7B503F00BB027C /* MineFortuneEachCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C974DC1C7B503F00BB027C /* MineFortuneEachCell.swift */; };
+		C6C974DF1C7B717300BB027C /* MineFortuneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C974DE1C7B717300BB027C /* MineFortuneVC.swift */; };
+		C6EA3D6C1C7ED108007FE200 /* GoldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EA3D6B1C7ED108007FE200 /* GoldCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +64,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		369471C840EF7A532DB841AE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8E1314D02F9364DBEADB0C11 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEBEECC8EFB9258F264EE20 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C64D8E421C7C134800228D68 /* MineFavoriteTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineFavoriteTVC.swift; sourceTree = "<group>"; };
+		C64D8E441C7C136200228D68 /* MineFavoriteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineFavoriteCell.swift; sourceTree = "<group>"; };
+		C64D8E461C7C1A3600228D68 /* MineRechargeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineRechargeTVC.swift; sourceTree = "<group>"; };
+		C64D8E481C7C267800228D68 /* MineWithDrawTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineWithDrawTVC.swift; sourceTree = "<group>"; };
+		C64D8E4A1C7C373400228D68 /* MineProfileTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineProfileTVC.swift; sourceTree = "<group>"; };
+		C64D8E4C1C7C3C0700228D68 /* MineProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineProfileCell.swift; sourceTree = "<group>"; };
+		C64D8E4F1C7C454100228D68 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C64D8E561C7C4F8300228D68 /* NameTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameTVC.swift; sourceTree = "<group>"; };
+		C64D8E581C7C548400228D68 /* SignatureTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureTVC.swift; sourceTree = "<group>"; };
+		C64D8E5A1C7C582400228D68 /* SexTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SexTVC.swift; sourceTree = "<group>"; };
+		C64D8E5C1C7C582D00228D68 /* AgeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeTVC.swift; sourceTree = "<group>"; };
+		C64D8E5E1C7C583C00228D68 /* DistrictTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictTVC.swift; sourceTree = "<group>"; };
+		C64D8E621C7C711900228D68 /* showCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showCVC.swift; sourceTree = "<group>"; };
+		C64D8E641C7C718900228D68 /* showCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showCell.swift; sourceTree = "<group>"; };
+		C64D8E661C7C73B900228D68 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C64D8E681C7D5DEB00228D68 /* InterestedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestedCell.swift; sourceTree = "<group>"; };
+		C64D8E6B1C7D661300228D68 /* DiscoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
+		C64D8E6D1C7D8F8D00228D68 /* RankingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsVC.swift; sourceTree = "<group>"; };
+		C64D8E6F1C7D9C0B00228D68 /* RankingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsCell.swift; sourceTree = "<group>"; };
+		C64D8E711C7DA60A00228D68 /* StoreCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreCVC.swift; sourceTree = "<group>"; };
+		C64D8E731C7DA97200228D68 /* StoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
+		C64D8E751C7DAF0800228D68 /* GuessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessVC.swift; sourceTree = "<group>"; };
+		C64D8E771C7DBD7D00228D68 /* GoldVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldVC.swift; sourceTree = "<group>"; };
 		C6A3810E1C7B3B6100E6C9B3 /* WoXingWoXiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoXingWoXiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A381111C7B3B6100E6C9B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6A381131C7B3B6100E6C9B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6A381161C7B3B6100E6C9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6A381191C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WoXingWoXiu.xcdatamodel; sourceTree = "<group>"; };
 		C6A3811B1C7B3B6100E6C9B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +103,12 @@
 		C6A381301C7B3B6100E6C9B3 /* WoXingWoXiuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoXingWoXiuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A381341C7B3B6100E6C9B3 /* WoXingWoXiuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoXingWoXiuUITests.swift; sourceTree = "<group>"; };
 		C6A381361C7B3B6100E6C9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A381471C7B427300E6C9B3 /* MineTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineTVC.swift; sourceTree = "<group>"; };
+		C6C974D41C7B490400BB027C /* MineSettingTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineSettingTVC.swift; sourceTree = "<group>"; };
+		C6C974D61C7B4A7200BB027C /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C6C974DC1C7B503F00BB027C /* MineFortuneEachCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineFortuneEachCell.swift; sourceTree = "<group>"; };
+		C6C974DE1C7B717300BB027C /* MineFortuneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineFortuneVC.swift; sourceTree = "<group>"; };
+		C6EA3D6B1C7ED108007FE200 /* GoldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64D8E501C7C454100228D68 /* MobileCoreServices.framework in Frameworks */,
+				6D70171D6CE7E2DA5877F24A /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +138,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82FF3858B4EFE4293C7223F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E1314D02F9364DBEADB0C11 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83848B62E28741FBFF7158F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBEECC8EFB9258F264EE20 /* Pods.debug.xcconfig */,
+				369471C840EF7A532DB841AE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C64D8E4E1C7C453100228D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C64D8E4F1C7C454100228D68 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64D8E531C7C4F3B00228D68 /* Profile Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C64D8E561C7C4F8300228D68 /* NameTVC.swift */,
+				C64D8E581C7C548400228D68 /* SignatureTVC.swift */,
+				C64D8E5A1C7C582400228D68 /* SexTVC.swift */,
+				C64D8E5C1C7C582D00228D68 /* AgeTVC.swift */,
+				C64D8E5E1C7C583C00228D68 /* DistrictTVC.swift */,
+			);
+			name = "Profile Detail";
+			sourceTree = "<group>";
+		};
+		C64D8E601C7C701B00228D68 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C6A381471C7B427300E6C9B3 /* MineTVC.swift */,
+				C64D8E4A1C7C373400228D68 /* MineProfileTVC.swift */,
+				C64D8E4C1C7C3C0700228D68 /* MineProfileCell.swift */,
+				C64D8E531C7C4F3B00228D68 /* Profile Detail */,
+				C6C974D41C7B490400BB027C /* MineSettingTVC.swift */,
+				C6C974DE1C7B717300BB027C /* MineFortuneVC.swift */,
+				C6C974DC1C7B503F00BB027C /* MineFortuneEachCell.swift */,
+				C64D8E421C7C134800228D68 /* MineFavoriteTVC.swift */,
+				C64D8E441C7C136200228D68 /* MineFavoriteCell.swift */,
+				C64D8E461C7C1A3600228D68 /* MineRechargeTVC.swift */,
+				C64D8E481C7C267800228D68 /* MineWithDrawTVC.swift */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		C64D8E611C7C70D800228D68 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				C64D8E621C7C711900228D68 /* showCVC.swift */,
+				C64D8E641C7C718900228D68 /* showCell.swift */,
+				C64D8E661C7C73B900228D68 /* GradientView.swift */,
+				C64D8E681C7D5DEB00228D68 /* InterestedCell.swift */,
+			);
+			name = Show;
+			sourceTree = "<group>";
+		};
+		C64D8E6A1C7D65FB00228D68 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				C64D8E6B1C7D661300228D68 /* DiscoverVC.swift */,
+				C64D8E6D1C7D8F8D00228D68 /* RankingsVC.swift */,
+				C64D8E6F1C7D9C0B00228D68 /* RankingsCell.swift */,
+				C64D8E711C7DA60A00228D68 /* StoreCVC.swift */,
+				C64D8E731C7DA97200228D68 /* StoreCell.swift */,
+				C64D8E751C7DAF0800228D68 /* GuessVC.swift */,
+				C64D8E771C7DBD7D00228D68 /* GoldVC.swift */,
+				C6EA3D6B1C7ED108007FE200 /* GoldCell.swift */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
 		C6A381051C7B3B6100E6C9B3 = {
 			isa = PBXGroup;
 			children = (
+				C64D8E4E1C7C453100228D68 /* Frameworks */,
 				C6A381101C7B3B6100E6C9B3 /* WoXingWoXiu */,
 				C6A381281C7B3B6100E6C9B3 /* WoXingWoXiuTests */,
 				C6A381331C7B3B6100E6C9B3 /* WoXingWoXiuUITests */,
 				C6A3810F1C7B3B6100E6C9B3 /* Products */,
+				83848B62E28741FBFF7158F2 /* Pods */,
+				82FF3858B4EFE4293C7223F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +245,12 @@
 		C6A381101C7B3B6100E6C9B3 /* WoXingWoXiu */ = {
 			isa = PBXGroup;
 			children = (
-				C6A381111C7B3B6100E6C9B3 /* AppDelegate.swift */,
-				C6A381131C7B3B6100E6C9B3 /* ViewController.swift */,
 				C6A381151C7B3B6100E6C9B3 /* Main.storyboard */,
-				C6A3811B1C7B3B6100E6C9B3 /* Assets.xcassets */,
-				C6A3811D1C7B3B6100E6C9B3 /* LaunchScreen.storyboard */,
-				C6A381201C7B3B6100E6C9B3 /* Info.plist */,
-				C6A381181C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld */,
+				C64D8E6A1C7D65FB00228D68 /* Discover */,
+				C64D8E611C7C70D800228D68 /* Show */,
+				C64D8E601C7C701B00228D68 /* Mine */,
+				C6C974D61C7B4A7200BB027C /* Utils.swift */,
+				C6A381421C7B3B6C00E6C9B3 /* Supporting Files */,
 			);
 			path = WoXingWoXiu;
 			sourceTree = "<group>";
@@ -128,6 +273,18 @@
 			path = WoXingWoXiuUITests;
 			sourceTree = "<group>";
 		};
+		C6A381421C7B3B6C00E6C9B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A381111C7B3B6100E6C9B3 /* AppDelegate.swift */,
+				C6A3811B1C7B3B6100E6C9B3 /* Assets.xcassets */,
+				C6A3811D1C7B3B6100E6C9B3 /* LaunchScreen.storyboard */,
+				C6A381201C7B3B6100E6C9B3 /* Info.plist */,
+				C6A381181C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6A381391C7B3B6100E6C9B3 /* Build configuration list for PBXNativeTarget "WoXingWoXiu" */;
 			buildPhases = (
+				19D0D4E3333CF8FFC514CCE1 /* Check Pods Manifest.lock */,
 				C6A3810A1C7B3B6100E6C9B3 /* Sources */,
 				C6A3810B1C7B3B6100E6C9B3 /* Frameworks */,
 				C6A3810C1C7B3B6100E6C9B3 /* Resources */,
+				C3965D4557F73771367851A5 /* Embed Pods Frameworks */,
+				14E082937DB956AA92D650AF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +356,7 @@
 				TargetAttributes = {
 					C6A3810D1C7B3B6100E6C9B3 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = GAGMVB88RQ;
 					};
 					C6A381241C7B3B6100E6C9B3 = {
 						CreatedOnToolsVersion = 7.2;
@@ -254,14 +415,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14E082937DB956AA92D650AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19D0D4E3333CF8FFC514CCE1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3965D4557F73771367851A5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6A3810A1C7B3B6100E6C9B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A381141C7B3B6100E6C9B3 /* ViewController.swift in Sources */,
+				C64D8E491C7C267800228D68 /* MineWithDrawTVC.swift in Sources */,
+				C64D8E671C7C73B900228D68 /* GradientView.swift in Sources */,
+				C64D8E761C7DAF0800228D68 /* GuessVC.swift in Sources */,
+				C64D8E741C7DA97200228D68 /* StoreCell.swift in Sources */,
+				C64D8E4B1C7C373400228D68 /* MineProfileTVC.swift in Sources */,
+				C64D8E471C7C1A3600228D68 /* MineRechargeTVC.swift in Sources */,
 				C6A3811A1C7B3B6100E6C9B3 /* WoXingWoXiu.xcdatamodeld in Sources */,
+				C64D8E721C7DA60A00228D68 /* StoreCVC.swift in Sources */,
 				C6A381121C7B3B6100E6C9B3 /* AppDelegate.swift in Sources */,
+				C64D8E571C7C4F8300228D68 /* NameTVC.swift in Sources */,
+				C6C974DD1C7B503F00BB027C /* MineFortuneEachCell.swift in Sources */,
+				C6EA3D6C1C7ED108007FE200 /* GoldCell.swift in Sources */,
+				C64D8E5F1C7C583C00228D68 /* DistrictTVC.swift in Sources */,
+				C64D8E631C7C711900228D68 /* showCVC.swift in Sources */,
+				C64D8E6C1C7D661300228D68 /* DiscoverVC.swift in Sources */,
+				C6A381481C7B427300E6C9B3 /* MineTVC.swift in Sources */,
+				C64D8E451C7C136200228D68 /* MineFavoriteCell.swift in Sources */,
+				C64D8E701C7D9C0B00228D68 /* RankingsCell.swift in Sources */,
+				C64D8E4D1C7C3C0700228D68 /* MineProfileCell.swift in Sources */,
+				C64D8E6E1C7D8F8D00228D68 /* RankingsVC.swift in Sources */,
+				C64D8E5D1C7C582D00228D68 /* AgeTVC.swift in Sources */,
+				C6C974DF1C7B717300BB027C /* MineFortuneVC.swift in Sources */,
+				C64D8E591C7C548500228D68 /* SignatureTVC.swift in Sources */,
+				C64D8E691C7D5DEB00228D68 /* InterestedCell.swift in Sources */,
+				C64D8E651C7C718900228D68 /* showCell.swift in Sources */,
+				C6C974D51C7B490400BB027C /* MineSettingTVC.swift in Sources */,
+				C64D8E5B1C7C582400228D68 /* SexTVC.swift in Sources */,
+				C64D8E431C7C134800228D68 /* MineFavoriteTVC.swift in Sources */,
+				C64D8E781C7DBD7D00228D68 /* GoldVC.swift in Sources */,
+				C6C974D71C7B4A7200BB027C /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,23 +637,33 @@
 		};
 		C6A3813A1C7B3B6100E6C9B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEBEECC8EFB9258F264EE20 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WoXingWoXiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinil.WoXingWoXiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		C6A3813B1C7B3B6100E6C9B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369471C840EF7A532DB841AE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WoXingWoXiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinil.WoXingWoXiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -488,6 +734,7 @@
 				C6A3813B1C7B3B6100E6C9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6A3813C1C7B3B6100E6C9B3 /* Build configuration list for PBXNativeTarget "WoXingWoXiuTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +743,7 @@
 				C6A3813E1C7B3B6100E6C9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6A3813F1C7B3B6100E6C9B3 /* Build configuration list for PBXNativeTarget "WoXingWoXiuUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +752,7 @@
 				C6A381411C7B3B6100E6C9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
